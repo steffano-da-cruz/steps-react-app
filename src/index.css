@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+/* GENERAL */
+
+.flex {
+  display: flex;
+}
+
+.container {
+  height: 23.2rem;
+  width: 60rem;
+  background-color: #f1f1f1;
+  border-radius: 1rem;
+  overflow: hidden;
+  margin: 10rem auto;
+  padding: 2.2rem 10rem;
+}
+
+.heavy {
+  font-weight: 600;
+}
+
+.center {
+  text-align: center;
+}
+
+.active {
+  color: #fff;
+  background-color: #7950f2;
+}
+
+/* STEPS REACT APP */
+
+.steps-box,
+.messages {
+  margin-bottom: 4rem;
+}
+
+.steps-box,
+.buttons-box {
+  justify-content: space-between;
+}
+
+.step,
+.messages {
+  font-size: 2rem;
+}
+
+.step {
+  height: 4rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem 1.6rem;
+}
