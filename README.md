@@ -1,5 +1,5 @@
 # Steps React App
-![Steps React App](/public/pizza-menu-readme.png)
+![Steps React App](/public/steps-react-app-readme.png)
 
 ## 💻 About the project
 An app made with React.
