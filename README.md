@@ -2,7 +2,8 @@
 ![Steps React App](/public/steps-react-app-readme.png)
 
 ## 💻 About the project
-An app made with React.
+Um App criado com React onde ao clicar para avançar ou retornar ocorrem mudanças na mensagem e na cor dos passos e também o
+App pode ser fechado e aberto através do botão X. Este app foi feito usando useState entre outros.
 
 ## 🛠 Technologies used
 - HTML5
