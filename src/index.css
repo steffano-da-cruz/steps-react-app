@@ -14,53 +14,54 @@ body {
 
 /* GENERAL */
 
+.btn {
+  font-weight: 600;
+  border: none;
+}
+
 .flex {
   display: flex;
 }
 
-.heavy {
-  font-weight: 600;
+.margin-bottom-md {
+  margin-bottom: 3rem;
 }
 
 .center {
   text-align: center;
 }
 
-.active {
-  color: #fff;
-  background-color: #7950f2;
+.normal-size {
+  font-size: 2rem;
 }
 
-/* STEPS REACT APP */
-
-.close {
-  color: #333;
-  font-size: 4rem;
-  background-color: #fff;
-  cursor: pointer;
+.heavy {
+  font-weight: 600;
 }
 
-.close {
+/* CLOSE BUTTON */
+
+.close-button {
   position: absolute;
   top: 0;
   right: 0;
-  padding: 2rem;
+
+  background-color: #fff;
+  padding: 1rem 2rem;
+  font-size: 4rem;
   border: none;
+  cursor: pointer;
 }
+
+/* STEPS APP */
 
 .container {
-  height: 23.2rem;
-  width: 60rem;
   background-color: #f1f1f1;
-  border-radius: 1rem;
+  width: 60rem;
+  margin: 25rem auto 0 auto;
+  padding: 3rem 8rem;
+  border-radius: 0.6rem;
   overflow: hidden;
-  margin: 30rem auto;
-  padding: 2.2rem 10rem;
-}
-
-.steps-box,
-.messages {
-  margin-bottom: 4rem;
 }
 
 .steps-box,
@@ -68,24 +69,35 @@ body {
   justify-content: space-between;
 }
 
-.step,
-.messages {
-  font-size: 2rem;
-}
-
 .step {
-  height: 4rem;
-  aspect-ratio: 1;
-  border-radius: 50%;
-
   display: flex;
   align-items: center;
   justify-content: center;
+
+  color: inherit;
+  background-color: #c2c2c2;
+  font-size: 1.6rem;
+  height: 40px;
+  padding: 1rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
 }
 
-.button {
+.message {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.button-previous,
+.button-next {
   font-size: 1.4rem;
-  border: none;
-  border-radius: 3rem;
-  padding: 1rem 1.6rem;
+  padding: 1rem 1.4rem;
+  border-radius: 18px;
+}
+
+/* ACTIVE */
+
+.active {
+  color: #fff;
+  background-color: #7950f2;
 }
